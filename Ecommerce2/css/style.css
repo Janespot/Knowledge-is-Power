@@ -1,0 +1,75 @@
+body {
+	background-color:#def;
+	color: black;
+	margin: 0;
+}
+.header {
+	background-color: black;
+	color:white;
+	text-decoration: none;
+	padding: 80px;
+	text-align: center;
+}
+
+.header h1 {
+	font-size: 40px;
+}
+#nav {
+	overflow: hidden;
+	background-color: #333;
+	border-bottom: 2px solid black;
+}
+
+#nav a:hover {
+	background-color: #ddd;
+	color: black;
+}
+
+
+* {
+	box-sizing: border-box;
+}
+
+#nav a {
+	float: left;
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 14px 20px;
+	text-decoration: none;
+}	
+	
+ul li {
+	list-style-type: none;
+	text-decoration: none;
+	float:left;
+}
+div #nav {
+	background-color: white;
+	color: black;
+}
+.footer {
+	background-color: gray;
+	color: black;
+	padding: 20px;
+}
+
+.content {
+	display: flex;
+	flex-wrap: wrap;
+}
+		
+.side {
+	flex: 20%;
+	background-color: #ffd;
+	padding: 20px;
+	margin-top: 30px;
+}
+.main {
+	flex: 80%;
+	padding: 20px;
+}
+
+.error {
+	color: red;
+}
